@@ -41,7 +41,7 @@ apt-get install -y git && \
 cd "${GITHUB_WORKSPACE}"
 
 echo "npm install ..."
-npm install
+npm install -f
 
 
 echo "Clean folder ..."

@@ -68,6 +68,7 @@ echo 'Start Commit ...'
 git commit --allow-empty -m "Building and deploying Hexo project form Github Action"
 
 echo 'Start Push ...'
+echo "${TARGET_BRANCH}"
 git push -u origin "${TARGET_BRANCH}" --force
 
 echo "Deployment succesful!"

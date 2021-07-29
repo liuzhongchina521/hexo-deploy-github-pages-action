@@ -28,7 +28,7 @@ then
   exit 1
 fi
 
-REPOSITORY_PATH="https://liuzhongchina521@github.com/${TARGET_REPOSITORY}.git"
+REPOSITORY_PATH="https://x-access-token:${PERSONAL_TOKEN}@github.com/${TARGET_REPOSITORY}.git"
 
 # deploy to
 echo "Deploy to ${TARGET_REPOSITORY}"
